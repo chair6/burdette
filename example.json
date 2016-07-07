@@ -1,0 +1,15 @@
+{
+    "urls": [
+        "http://www.google.com",
+        "http://www.facebook.com"
+    ],
+    "trusted_srcs": [
+        "facebook.com", "google.com", "www.youtube.com"
+    ],
+    "min_diff_ratio": 0.92,
+    "alert_from" : "name@server.domain",
+    "alert_to": [ "recipient@domain.com", "recipient2@domain2.com" ],
+    "alert_smtprelay": "localhost",
+    "alert_repeat_minutes": 60,
+    "default_timeout": 20
+}
